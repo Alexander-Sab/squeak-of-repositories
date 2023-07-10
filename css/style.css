@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+
+.basic {  
+    background-color: #C4C4C4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    box-sizing: border-box;
+    margin-top: 62px;
+}
+
+.conteiner {
+    width: 500px;
+    margin: 0 auto;   
+}
+
+.conteiner-list {
+    display: flex;
+    flex-direction: column;
+    min-height: 326px;
+}
+
+.conteiner-search {
+    width: 100%;
+    font-size: 48px;
+    line-height: 56px;
+    border: none;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.dropdown-content {
+    width: 100%;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 35px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
+}
+
+.dropdown-content:hover {
+    background-color: #65CDF9;
+    cursor: pointer;
+}
+
+.conteiner-repositories {
+    width: 503px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.chosen {
+    display: flex;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 8px 16px;
+    line-height: 28px;
+    border: 1px solid #000;
+    background-color: #E27BEB;
+}
+
+.btn-close {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-repeat: no-repeat;
+    background-image: url("../icons/icons8-удалить-60.svg");
+    background-color: transparent;
+    background-size: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 38.5px;
+    right: 20px;
+}
